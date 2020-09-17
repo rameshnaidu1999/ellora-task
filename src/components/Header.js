@@ -12,15 +12,15 @@ function Header() {
 			      </div>
 			      <nav id="nav-menu-container">
 			        <ul class="nav-menu">
-			          <li><a href="index.html">Home</a></li>
-			          <li><a href="about.html">About</a></li>
-			          <li><a href="services.html">Services</a></li>
-			          <li><a href="portfolio.html">Portfolio</a></li>
-			          <li><a href="price.html">Pricing</a></li>
+			          <li><a href="/">Home</a></li>
+			          <li><a href="/">About</a></li>
+			          <li><a href="/">Services</a></li>
+			          <li><a href="/">Portfolio</a></li>
+			          <li><a href="/">Pricing</a></li>
 			          <li class="menu-has-children"><a href="/">Blog</a>
 			            <ul>
-			              <li><a href="blog-home.html">Blog Home</a></li>
-			              <li><a href="blog-single.html">Blog Single</a></li>
+			              <li><a href="/">Blog Home</a></li>
+			              <li><a href="/">Blog Single</a></li>
 			            </ul>
 			          </li>	
 			          <li class="menu-has-children"><a href="/">Pages</a>
@@ -34,7 +34,7 @@ function Header() {
 				          </li>					                		
 			            </ul>
 			          </li>					          					          		          
-			          <li><a href="contact.html">Contact</a></li>
+			          <li><a href="/">Contact</a></li>
 			        </ul>
 			      </nav>		    		
 		    	</div>
