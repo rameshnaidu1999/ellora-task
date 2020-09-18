@@ -121,6 +121,16 @@ ul {
 
 /*----- Section Title -----*/
 
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	color: #666;
+	font-size: 14px;
+	line-height: 28px;
+	overflow-x: hidden;
+
+}
+
 .section_title{
 	margin-bottom: 50px;
 }
@@ -235,6 +245,7 @@ ul {
 }
 #main_menu ul li {
 	position: relative;
+	
 }
 /* Sub Menu */
 .sub-menu {

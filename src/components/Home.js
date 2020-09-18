@@ -12,7 +12,7 @@ function Home() {
 						<div class="row">
 							<div class="col-md-7 col-sm-12 col-xs-12">
 								<div class="slider_content">
-									<h1>Hello I'm John.  <span class="typed" data-elements="A Creative Web Designer,A WordPress Developer"></span></h1>
+									<h1>Hello I'm John.  <span className="typed" data-elements="A Creative Web Designer,A WordPress Developer"></span></h1>
 									
 									<a href="/" class="main-btn ">Download CV</a>	
 		
