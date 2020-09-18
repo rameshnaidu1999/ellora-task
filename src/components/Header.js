@@ -1,45 +1,59 @@
 import React from 'react'
-import './css/Header.css'
+import './css/style.css'
 
 function Header() {
     return (
         <div>
-        <header id="header">
-		    <div class="container main-menu">
-		    	<div class="row align-items-center justify-content-between d-flex">
-			      <div id="logo">
-			        <a href="index.html"><img src="/assets/img/logo.png" alt="" title="" /></a>
-			      </div>
-			      <nav id="nav-menu-container">
-			        <ul class="nav-menu">
-			          <li><a href="/">Home</a></li>
-			          <li><a href="/">About</a></li>
-			          <li><a href="/">Services</a></li>
-			          <li><a href="/">Portfolio</a></li>
-			          <li><a href="/">Pricing</a></li>
-			          <li class="menu-has-children"><a href="/">Blog</a>
-			            <ul>
-			              <li><a href="/">Blog Home</a></li>
-			              <li><a href="/">Blog Single</a></li>
-			            </ul>
-			          </li>	
-			          <li class="menu-has-children"><a href="/">Pages</a>
-			            <ul>
-		            	  <li><a href="elements.html">Elements</a></li>
-				          <li class="menu-has-children"><a href="/">Level 2 </a>
-				            <ul>
-				              <li><a href="/">Item One</a></li>
-				              <li><a href="/">Item Two</a></li>
-				            </ul>
-				          </li>					                		
-			            </ul>
-			          </li>					          					          		          
-			          <li><a href="/">Contact</a></li>
-			        </ul>
-			      </nav>		    		
-		    	</div>
-		    </div>
-		  </header>
+				
+		<div class="preloader">
+			<div class="spinner">
+				<div class="double-bounce1"></div>
+				<div class="double-bounce2"></div>
+			</div>
+		</div>
+		
+		
+			
+		<header id="header">
+			<div class="container">	
+				<div class="row">			
+					<div class="col-md-4 col-xs-4">
+						{/* <!-- Logo Area --> */}
+						<div class="logo_area">
+							 <a href="index.html"><img src="img/logo.png" alt="Logo" /></a>
+						</div>					
+					</div>
+				
+					{/* <!-- Main Menu Area --> */}
+					<div class="col-md-8 col-xs-8 menu_wrap">
+						<nav id="navigation" class="navbar-right">								
+							<ul id="nav" class="nav navbar-nav">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="#service_area">Services</a></li>
+								<li><a href="#work_area">Works</a></li>
+								<li><a href="#resume_area">Resume</a></li>
+								<li><a href="#testimonial_area">testimonials</a></li>
+								<li><a href="#blog_area">Blog</a></li>
+								<li><a href="#contact_area">Contact</a></li>
+							</ul>						
+						</nav>		
+						
+						<nav id="mobile_menu">								
+							<ul class="nav navbar-nav">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="#service_area">Services</a></li>
+								<li><a href="#work_area">Works</a></li>
+								<li><a href="#team_area">Team</a></li>
+								<li><a href="#testimonial_area">testimonials</a></li>
+								<li><a href="#blog_area">Blog</a></li>
+								<li><a href="#contact_area">Contact</a></li>
+							</ul>						
+						</nav>
+					</div>					
+				</div>
+			</div>
+		</header>
+		
         </div>
     )
 }

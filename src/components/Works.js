@@ -1,140 +1,122 @@
 import React from 'react'
-import './css/Header.css'
+import './css/style.css'
 
 function Works() {
     return (
         <div>
-            <section class="portfolio-area section-gap" id="portfolio">
-                <div class="container">
-		            <div class="row d-flex justify-content-center">
-		                <div class="menu-content pb-70 col-lg-8">
-		                    <div class="title text-center">
-		                        <h1 class="mb-10">Our Latest Featured Projects</h1>
-		                        <p>Who are in extremely love with eco friendly system.</p>
-		                    </div>
-		                </div>
-		            </div>
-                    
-                    <div class="filters">
-                        <ul>
-                            <li class="active" data-filter="*">All</li>
-                            <li data-filter=".vector">Vector</li>
-                            <li data-filter=".raster">Raster</li>
-                            <li data-filter=".ui">UI/UX</li>
-                            <li data-filter=".printing">Printing</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="filters-content">
-                        <div class="row grid">
-                            <div class="single-portfolio col-sm-4 all vector">
-                            	<div class="relative">
-	                            	<div class="thumb">
-	                            		<div class="overlay overlay-bg"></div>
-	                            		 <img class="image img-fluid" src="img/p1.jpg" alt="" />
-	                            	</div>
-									<a href="img/p1.jpg" class="img-pop-up">	
-									  <div class="middle">
-									    <div class="text align-self-center d-flex"><img src="img/preview.png" alt="" /></div>
-									  </div>
-								</a>                              		
-                            	</div>
-								<div class="p-inner">
-								    <h4>2D Vinyl Design</h4>
-									<div class="cat">vector</div>
-								</div>					                               
-                            </div>
-                            <div class="single-portfolio col-sm-4 all raster">
-                            	<div class="relative">
-	                            	<div class="thumb">
-	                            		<div class="overlay overlay-bg"></div>
-	                            		 <img class="image img-fluid" src="img/p2.jpg" alt="" />
-	                            	</div>
-									<a href="img/p2.jpg" class="img-pop-up">	
-									  <div class="middle">
-									    <div class="text align-self-center d-flex"><img src="img/preview.png" alt="" /></div>
-									  </div>
-								</a>                              		
-                            	</div>
-								<div class="p-inner">
-								    <h4>2D Vinyl Design</h4>
-									<div class="cat">vector</div>
-								</div>					                               
-                            </div>                            
-                            <div class="single-portfolio col-sm-4 all ui">
-                            	<div class="relative">
-	                            	<div class="thumb">
-	                            		<div class="overlay overlay-bg"></div>
-	                            		 <img class="image img-fluid" src="img/p3.jpg" alt="" />
-	                            	</div>
-									<a href="img/p3.jpg" class="img-pop-up">	
-									  <div class="middle">
-									    <div class="text align-self-center d-flex"><img src="img/preview.png" alt="" /></div>
-									  </div>
-									</a> 
-	                            		
-	                           	</div>
-                                <div class="p-inner">
-                                    <h4>Creative Poster Design</h4>
-                                    <div class="cat">Agency</div>
-                                </div>
-                            </div>
-                            <div class="single-portfolio col-sm-4 all printing">
-                            	<div class="relative">
-	                            	<div class="thumb">
-	                            		<div class="overlay overlay-bg"></div>
-	                            		 <img class="image img-fluid" src="img/p4.jpg" alt="" />
-	                            	</div>
-									<a href="img/p4.jpg" class="img-pop-up">	
-									  <div class="middle">
-									    <div class="text align-self-center d-flex"><img src="img/preview.png" alt="" /></div>
-									  </div>
-									</a>                            		
-                            	</div> 
-                                <div class="p-inner">
-                                    <h4>Embosed Logo Design</h4>
-                                    <div class="cat">Portal</div>
-                                </div>
-                            </div>
-                            <div class="single-portfolio col-sm-4 all vector">
-                            	<div class="relative">
-                            	<div class="thumb">
-	                            		<div class="overlay overlay-bg"></div>
-	                            		 <img class="image img-fluid" src="img/p5.jpg" alt="" />
-	                            	</div>
-									<a href="img/p5.jpg" class="img-pop-up">	
-									  <div class="middle">
-									    <div class="text align-self-center d-flex"><img src="img/preview.png" alt="" /></div>
-									  </div>
-									</a>                             		
-                            	</div>
-                                <div class="p-inner">
-                                    <h4>3D Helmet Design</h4>
-                                    <div class="cat">vector</div>
-                                </div>
-                            </div>
-                            <div class="single-portfolio col-sm-4 all raster">
-                            	<div class="relative">
-	                            	<div class="thumb">
-	                            		<div class="overlay overlay-bg"></div>
-	                            		 <img class="image img-fluid" src="img/p6.jpg" alt="" />
-	                            	</div>
-									<a href="img/p6.jpg" class="img-pop-up">	
-									  <div class="middle">
-									    <div class="text align-self-center d-flex"><img src="img/preview.png" alt="" /></div>
-									  </div>
-									</a>                             		
-                            	</div>
-                                <div class="p-inner">
-                                    <h4>2D Vinyl Design</h4>
-                                    <div class="cat">raster</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </section>
+		<section id="work_area" class="our_works_area">
+			<div class="container">			
+				<div class="row">
+					<div class="col-sm-12 col-xs-12 text-center">
+						<div class="section_title">		
+							<h2>Latest Work</h2>
+							<p>It is a long established fact that a reader will be distracted by the readable <br/>content of a page when looking at its layout
+							</p>
+						</div>
+					</div>
+				</div>
+			
+				<div class="row text-center">
+					<div class="portfolio_filter">
+						<ul>
+							<li class="active filter" data-filter="all">All</li>
+							<li class="filter" data-filter=".web_design">WEB DESIGN</li>
+							<li class="filter" data-filter=".illustrator">ILLUSTRATOR</li>
+							<li class="filter" data-filter=".ux_design">UL/UX DESIGN</li>
+							<li class="filter" data-filter=".print">PRINT</li>
+							<li class="filter" data-filter=".video">VIDEO</li>
+						</ul>
+					</div>
+				</div>	
+				
+				<div class="row">
+					<div class="portfolio_item text-center">
+						<div class="col-md-4 col-sm-6 mix web_design video ux_design">
+							<div class="single_portfolio">														
+								<div class="port-box-content">
+									<img src="img/portfolio/1.jpeg" alt="" />						
+									<a href="img/portfolio/1.jpeg" class="port-icon lightbox" data-gall="gall-work"><i class="ti-plus"></i></a>												
+								</div>
+								<div class="port-text text-left">	
+									<h3 class="title">Portfolio Title</h3>
+									<span class="post">Web Design</span>
+								</div>
+							</div>
+						</div> 						
+						
+						<div class="col-md-4 col-sm-6 mix web_design video">
+							<div class="single_portfolio">														
+								<div class="port-box-content">
+									<img src="img/portfolio/1.jpeg" alt="" />						
+									<a href="img/portfolio/1.jpeg" class="port-icon lightbox" data-gall="gall-work"><i class="ti-plus"></i></a>												
+								</div>
+								<div class="port-text text-left">	
+									<h3 class="title">Portfolio Title</h3>
+									<span class="post">Web Design</span>
+								</div>
+							</div>
+						</div> 	
+
+						<div class="col-md-4 col-sm-6 mix web_design print ux_design">
+							<div class="single_portfolio">														
+								<div class="port-box-content">
+									<img src="img/portfolio/1.jpeg" alt="" />						
+									<a href="img/portfolio/1.jpeg" class="port-icon lightbox" data-gall="gall-work"><i class="ti-plus"></i></a>												
+								</div>
+								<div class="port-text text-left">	
+									<h3 class="title">Portfolio Title</h3>
+									<span class="post">Web Design</span>
+								</div>
+							</div>
+						</div> 
+
+						<div class="col-md-4 col-sm-6 mix web_design illustrator ux_design">
+							<div class="single_portfolio">														
+								<div class="port-box-content">
+									<img src="img/portfolio/1.jpeg" alt="" />						
+									<a href="img/portfolio/1.jpeg" class="port-icon lightbox" data-gall="gall-work"><i class="ti-plus"></i></a>												
+								</div>
+								<div class="port-text text-left">	
+									<h3 class="title">Portfolio Title</h3>
+									<span class="post">Web Design</span>
+								</div>
+							</div>
+						</div> 	
+
+						<div class="col-md-4 col-sm-6 mix web_design illustrator">
+							<div class="single_portfolio">														
+								<div class="port-box-content">
+									<img src="img/portfolio/1.jpeg" alt="" />						
+									<a href="img/portfolio/1.jpeg" class="port-icon lightbox" data-gall="gall-work"><i class="ti-plus"></i></a>												
+								</div>
+								<div class="port-text text-left">	
+									<h3 class="title">Portfolio Title</h3>
+									<span class="post">Web Design</span>
+								</div>
+							</div>
+						</div> 					
+
+						<div class="col-md-4 col-sm-6 mix print">
+							<div class="single_portfolio">														
+								<div class="port-box-content">
+									<img src="img/portfolio/1.jpeg" alt="" />						
+									<a href="img/portfolio/1.jpeg" class="port-icon lightbox" data-gall="gall-work"><i class="ti-plus"></i></a>												
+								</div>
+								<div class="port-text text-left">	
+									<h3 class="title">Portfolio Title</h3>
+									<span class="post">Web Design</span>
+								</div>
+							</div>
+						</div> 
+					</div>
+					
+					<div class="col-md-12 text-center">
+						<a href="/" class="main-btn">Load More</a>
+					</div>
+				</div>
+				
+			</div>
+		</section>
         </div>
     )
 }

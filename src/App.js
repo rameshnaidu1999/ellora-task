@@ -5,15 +5,20 @@ import Header from './components/Header'
 import Home from './components/Home'
 import Services from './components/Services'
 import Works from './components/Works'
-
+import About from './components/About'
+import Blog from './components/Blog'
+import Contact from './components/Contact'
 function App() {
   return (
     <div>
       <Header />
       <Home />
+      <About />
       <Services />
       <Works />
       <Clients />
+      <Blog />
+      <Contact />
       <Footer />
     </div>
   )
