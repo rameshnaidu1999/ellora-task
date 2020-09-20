@@ -1,0 +1,102 @@
+  {
+    "SocialMedias": [
+      "https://github.com/",
+      "https://www.linkedin.com/",
+      "https://www.facebook.com/"
+    ],
+    "Services": [
+        {
+            "id": "1",
+            "icon": "ti-light-bulb",
+            "serviceName": "App Development",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro reprehenderit "
+        },
+        {
+            "id": "2",
+            "icon": "ti-stats-up",
+            "serviceName": "Web Development",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro reprehenderit "
+        },
+        {
+            "id": "3",
+            "icon": "ti-vector",
+            "serviceName": "Responsive design",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro reprehenderit "
+        },
+        {
+            "id": "4",
+            "icon": "ti-announcement",
+            "serviceName": "Designs & interfaces",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro reprehenderit "
+        },
+        {
+            "id": "5",
+            "icon": "ti-blackboard",
+            "serviceName": "Highly customizable",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro reprehenderit "
+        },
+        {
+            "id": "6",
+            "icon": "ti-headphone",
+            "serviceName": "Dedicated support",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro reprehenderit "
+        }
+    ],
+    "Experiences": [
+      {
+        "companyName": "Demo1 Technologies",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+        "url": "https://www.google.com/",
+        "roles": [
+          {
+            "title": "Full Stack Developer",
+            "description": "Built and updated various Chrome Extensions.",
+            "startDate": "2017-01-01",
+            "endDate": "2017-05-01",
+            "location": "New York, USA"
+          }
+        ]
+      },
+      {
+        "companyName": "Demo2 Technologies",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+        "url": "https://www.google.com/",
+        "roles": [
+          {
+            "title": "UI Designer",
+            "description": "Design user-fridendly web page",
+            "startDate": "2016-05-01",
+            "endDate": "2016-09-01",
+            "location": "Beijing, China"
+          }
+        ]
+      }
+    ],
+    "Skills": [
+      {
+        "skillName": "Development",
+        "percentage": "75"
+      },
+      {
+        "skillName": "Cordignator",
+        "percentage": "90"
+      },
+      {
+        "skillName": "Web Design",
+        "percentage": "80"
+      },
+      {
+        "skillName": "Laravel",
+        "percentage": "70"
+      }
+
+    ]   
+  }
+
+
+
+
+
+
+    
+    

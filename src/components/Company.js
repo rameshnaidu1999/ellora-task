@@ -4,40 +4,40 @@ import './css/style.css'
 function Company() {
     return (
         <div>
-            <div id="clients" class="client_area">
-			<div class="container">
-				<div class="col-md-12">
-					<div class="client_slide_area owl-carousel">
-						<div class="single_client">
-							<a href="#"><img class="img-responsive" src="img/client/1.png" alt="" /></a>
+            <div id="clients" className="client_area">
+			<div className="container">
+				<div className="col-md-12">
+					<div className="client_slide_area owl-carousel">
+						<div className="single_client">
+							<a href="/"><img className="img-responsive" src="img/client/1.png" alt="" /></a>
 						</div>
-						<div class="single_client">
-							<a href="#"><img class="img-responsive" src="img/client/1.png" alt="" /></a>
+						<div className="single_client">
+							<a href="/"><img className="img-responsive" src="img/client/1.png" alt="" /></a>
 						</div>
-						<div class="single_client">
-							<a href="#"><img class="img-responsive" src="img/client/1.png" alt="" /></a>
+						<div className="single_client">
+							<a href="/"><img className="img-responsive" src="img/client/1.png" alt="" /></a>
 						</div>
-						<div class="single_client">
-							<a href="#"><img class="img-responsive" src="img/client/1.png" alt="" /></a>
+						<div className="single_client">
+							<a href="/"><img className="img-responsive" src="img/client/1.png" alt="" /></a>
 						</div>
-						<div class="single_client">
-							<a href="#"><img class="img-responsive" src="img/client/1.png" alt="" /></a>
+						<div className="single_client">
+							<a href="/"><img className="img-responsive" src="img/client/1.png" alt="" /></a>
 						</div>
 						
-						<div class="single_client">
-							<a href="#"><img class="img-responsive" src="img/client/1.png" alt="" /></a>
+						<div className="single_client">
+							<a href="/"><img className="img-responsive" src="img/client/1.png" alt="" /></a>
 						</div>
-						<div class="single_client">
-							<a href="#"><img class="img-responsive" src="img/client/1.png" alt="" /></a>
+						<div className="single_client">
+							<a href="/"><img className="img-responsive" src="img/client/1.png" alt="" /></a>
 						</div>
-						<div class="single_client">
-							<a href="#"><img class="img-responsive" src="img/client/1.png" alt="" /></a>
+						<div className="single_client">
+							<a href="/"><img className="img-responsive" src="img/client/1.png" alt="" /></a>
 						</div>
-						<div class="single_client">
-							<a href="#"><img class="img-responsive" src="img/client/1.png" alt="" /></a>
+						<div className="single_client">
+							<a href="/"><img className="img-responsive" src="img/client/1.png" alt="" /></a>
 						</div>
-						<div class="single_client">
-							<a href="#"><img class="img-responsive" src="img/client/1.png" alt="" /></a>
+						<div className="single_client">
+							<a href="/"><img className="img-responsive" src="img/client/1.png" alt="" /></a>
 						</div>
 	
 					</div>

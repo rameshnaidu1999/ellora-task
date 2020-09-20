@@ -5,22 +5,22 @@ function Home() {
     return (
         <div>
 		
-		<section id="home_banner_area" class="text-left">	
-			<div class="container">	
-				<div class="single-slide-item-table">
-					<div class="single-slide-item-tablecell">
-						<div class="row">
-							<div class="col-md-7 col-sm-12 col-xs-12">
-								<div class="slider_content">
-									<h1>Hello I'm John.  <span className="typed" data-elements="A Creative Web Designer,A WordPress Developer"></span></h1>
+		<section id="home_banner_area" className="text-left">	
+			<div className="container">	
+				<div className="single-slide-item-table">
+					<div className="single-slide-item-tablecell">
+						<div className="row">
+							<div className="col-md-7 col-sm-12 col-xs-12">
+								<div className="slider_content">
+									<h1>Hello I'm John.  <span classNameName="typed" data-elements="A Creative Web Designer,A WordPress Developer"></span></h1>
 									
-									<a href="/" class="main-btn ">Download CV</a>	
+									<a href="/" className="main-btn ">Download CV</a>	
 		
 								</div>
 							</div>	
 							
-							<div class="col-md-5 hidden-sm hidden-xs">
-								<div class="banner-image">
+							<div className="col-md-5 hidden-sm hidden-xs">
+								<div className="banner-image">
 									<img src="img/men.png" alt="" />
 								</div>
 							</div>	
@@ -31,7 +31,7 @@ function Home() {
 			</div>
 		</section>
 						
-		<div class="clearfix"></div>
+		<div className="clearfix"></div>
         </div>
     )
 }

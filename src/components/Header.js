@@ -4,30 +4,30 @@ import './css/style.css'
 function Header() {
     return (
         <div>
-				
-		<div class="preloader">
-			<div class="spinner">
-				<div class="double-bounce1"></div>
-				<div class="double-bounce2"></div>
+		{/* <!-- START PRELOADER --> */}
+		<div className="preloader">
+			<div className="spinner">
+				<div className="double-bounce1"></div>
+				<div className="double-bounce2"></div>
 			</div>
 		</div>
+		{/* <!-- END PRELOADER --> */}
 		
-		
-			
+		{/* <!-- Star Header Area -->		 */}
 		<header id="header">
-			<div class="container">	
-				<div class="row">			
-					<div class="col-md-4 col-xs-4">
+			<div className="container">	
+				<div className="row">			
+					<div className="col-md-4 col-xs-4">
 						{/* <!-- Logo Area --> */}
-						<div class="logo_area">
+						<div className="logo_area">
 							 <a href="index.html"><img src="img/logo.png" alt="Logo" /></a>
 						</div>					
 					</div>
 				
 					{/* <!-- Main Menu Area --> */}
-					<div class="col-md-8 col-xs-8 menu_wrap">
-						<nav id="navigation" class="navbar-right">								
-							<ul id="nav" class="nav navbar-nav">
+					<div className="col-md-8 col-xs-8 menu_wrap">
+						<nav id="navigation" className="navbar-right">								
+							<ul id="nav" className="nav navbar-nav ml-auto">
 								<li><a href="index.html">Home</a></li>
 								<li><a href="#service_area">Services</a></li>
 								<li><a href="#work_area">Works</a></li>
@@ -39,7 +39,7 @@ function Header() {
 						</nav>		
 						
 						<nav id="mobile_menu">								
-							<ul class="nav navbar-nav">
+							<ul className="nav navbar-nav">
 								<li><a href="index.html">Home</a></li>
 								<li><a href="#service_area">Services</a></li>
 								<li><a href="#work_area">Works</a></li>
@@ -51,9 +51,10 @@ function Header() {
 						</nav>
 					</div>					
 				</div>
-			</div>
+			</div> 
+			{/* <!-- /.container-fluid --> */}
 		</header>
-		
+		{/* <!-- End header area --> */}
         </div>
     )
 }

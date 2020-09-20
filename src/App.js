@@ -8,15 +8,24 @@ import Works from './components/Works'
 import About from './components/About'
 import Blog from './components/Blog'
 import Contact from './components/Contact'
+import Company from './components/Company'
+import Resume from './components/Resume'
+import Counter from './components/Counter'
+import Skills from './components/Skills'
+
 function App() {
   return (
     <div>
       <Header />
       <Home />
       <About />
+      <Skills />
       <Services />
       <Works />
+      <Resume />
+      <Counter />
       <Clients />
+      <Company />
       <Blog />
       <Contact />
       <Footer />

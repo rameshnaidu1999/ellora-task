@@ -1,3 +1,13 @@
+@import url('./animate.css');
+/* @import url('./bootstrap.min.css'); */
+@import url('./font-awesome.css');
+@import url('./meanmenu.min.css');
+@import url('./owl.carousel.min.css');
+@import url('./owl.theme.default.min.css');
+@import url('./responsive.css');
+@import url('./themify-icons.css');
+@import url('./venobox.css');
+
 /* Glacial Indifference Regular*/
 @font-face {
     font-family: 'glacial_indifferenceregular';
